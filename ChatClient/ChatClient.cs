@@ -14,7 +14,6 @@ namespace ChatClient
     // the same contract as call back contract.
     // Using CallbackContract, server sends message to clients
     [ServiceContract(CallbackContract = typeof(IChatService))]
-[ser
     public interface IChatService
     {
         // All operation contracts are one way so that client 
